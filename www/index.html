@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<!--HTML5 doctype-->
+<html>
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+	<!-- content goes here-->
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="app_framework/css/af.ui.min.css">
+		<link rel="stylesheet" type="text/css" href="app_framework/css/icons.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+		<title>Your New Application</title>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+		<style type="text/css">
+			/* Prevent copy paste for all elements except text fields */
+			*  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
+			input, textarea  { -webkit-user-select:text; }
+		</style>
+		<script src="intelxdk.js"></script>
+		<script type="text/javascript">
+			/* This code is used to run as soon as Intel activates */
+			var onDeviceReady=function(){
+			//hide splash screen
+			intel.xdk.device.hideSplashScreen();
+			};
+			document.addEventListener("intel.xdk.device.ready",onDeviceReady,false);
+		</script>
+		<script type="application/javascript" src="app_framework/appframework.min.js"></script>
+		<script type="application/javascript" src="app_framework/appframework.ui.min.js"></script>
+		<script type="application/javascript" src="js/jquery.min.js"></script>
+		<script type="application/javascript" src="js/index_user_scripts.js"></script>
+		<script type="application/javascript" src="justgage/js/raphael.min.js"></script>
+		<script type="application/javascript" src="justgage/js/justgage.min.js"></script>
+		<script type="application/javascript" src="justgage/gauges.js"></script>
+		<script type="application/javascript" src="js/af_subpage.js"></script>
+	</head>
+
+	<body id="afui">
+
+		<!-- content goes here-->
+		<div class="uwrap" id="content">
+			<div class="upage panel Sunset" id="loginpage" data-header="none" data-footer="none">
+				<div class="upage-outer">
+
+					<div class="upage-content" id="mainsub">
+
+						<div class="grid grid-pad urow uib_row_1 row-height-1" data-uib="layout/row" data-ver="0">
+
+							<div class="col uib_col_1 col-0" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="widget uib_w_43 d-margins SuperHeaderText" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>Erigo</p>
+										</div>
+									</div>
+
+									<div class="widget uib_w_44 d-margins MiniHeaderText" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>Love the World. Love Yourself.</p>
+										</div>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_2 row-height-2" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_2 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="table-thing with-label widget uib_w_2 d-margins CenterLabel HeaderText1" data-uib="app_framework/input" data-ver="0">
+										<label class="narrow-control label-inline" for="username">Username</label>
+
+										<input class="wide-control" type="text" id="username">
+									</div>
+									<div class="table-thing with-label widget uib_w_3 d-margins CenterLabel HeaderText1" data-uib="app_framework/input" data-ver="0">
+										<label class="narrow-control label-inline" for="password">Password</label>
+
+										<input class="wide-control" type="password" id="password">
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_3 row-height-3" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_3 col-0_6-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<a class="button widget uib_w_4 d-margins" data-uib="app_framework/button" data-ver="0" id="SignIn" href="#optionselect_page" data-transition="fade">Sign In</a><span class="uib_shim"></span>
+								</div>
+							</div>
+							<div class="col uib_col_4 col-0_6-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<a class="button widget uib_w_5 d-margins" data-uib="app_framework/button" data-ver="0" id="SignUp" href="#optionselect_page" data-transition="fade">Sign Up</a><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+					</div>
+					<!-- /upage-content -->
+
+				</div>
+				<!-- /upage-outer -->
+
+			</div>
+			<div class="upage panel Sunset" id="choiceofencourage" data-header="af-header-10" data-footer="none">
+				<div class="upage-outer">
+					<header class="container-group inner-element uib_w_104" data-uib="app_framework/header" data-ver="0" id="af-header-10">
+						<h1>Encourage Others</h1>
+						<div class="widget-container wrapping-col single-centered"></div>
+						<div class="widget-container content-area horiz-area wrapping-col left"><a class="button widget uib_w_111 d-margins icon left" data-uib="app_framework/button" data-ver="0" id="backtooption" href="#optionselect_page" data-transition="fade">Back</a>
+						</div>
+						<div class="widget-container content-area horiz-area wrapping-col right"><a class="button widget uib_w_106 d-margins icon home" data-uib="app_framework/button" data-ver="0" href="#optionselect_page" data-transition="fade">Home</a>
+						</div>
+					</header>
+					<div id="choiceofencouragesub" class="upage-content ">
+
+						<div class="grid grid-pad urow uib_row_48 row-height-48" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_52 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="grid grid-pad urow uib_row_49 row-height-49" data-uib="layout/row" data-ver="0">
+										<div class="col uib_col_53 col-1_12-12" data-uib="layout/col" data-ver="0">
+											<div class="widget-container content-area vertical-col">
+												<span class="uib_shim"></span>
+											</div>
+										</div>
+										<span class="uib_shim"></span>
+									</div>
+									<div class="button-grouped widget uib_w_107 d-margins vertical" data-uib="app_framework/button_group" data-ver="0"><a class="button widget uib_w_108 d-margins" data-uib="app_framework/button" data-ver="0" style="border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;" href="#sendtext_page"
+										data-transition="fade">General Encouragement</a><a class="button widget uib_w_109 d-margins" data-uib="app_framework/button" data-ver="0" href="#specificencouragement" data-transition="fade">Specific Encouragement</a>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+					</div>
+				</div>
+				<!-- /upage-outer -->
+			</div>
+			<div class="upage panel Sunset" id="mypostmessage" data-header="af-header-9" data-footer="none">
+				<div class="upage-outer">
+					<header class="container-group inner-element uib_w_90" data-uib="app_framework/header" data-ver="0" id="af-header-9">
+						<h1>My post</h1>
+						<div class="widget-container wrapping-col single-centered"></div>
+						<div class="widget-container content-area horiz-area wrapping-col left"></div>
+						<div class="widget-container content-area horiz-area wrapping-col right"><a class="button widget uib_w_91 d-margins icon home" data-uib="app_framework/button" data-ver="0" href="#optionselect_page" data-transition="fade">Home</a>
+						</div>
+					</header>
+					<div id="mypostmessagesub" class="upage-content ">
+
+						<div class="grid grid-pad urow uib_row_47 row-height-47" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_51 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+									<span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+						<div class="grid grid-pad urow uib_row_44 row-height-44" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_48 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="button-grouped widget uib_w_92 d-margins vertical" data-uib="app_framework/button_group" data-ver="0"><a class="button widget uib_w_93 d-margins" data-uib="app_framework/button" data-ver="0" style="border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;" href="#firstlatestpost"
+										data-transition="fade">1st latest post</a><a class="button widget uib_w_94 d-margins" data-uib="app_framework/button" data-ver="0" href="#secondlatestpost" data-transition="fade">2nd latest post</a><a class="button widget uib_w_95 d-margins"
+										data-uib="app_framework/button" data-ver="0" style="border-top-right-radius: 0px; border-top-left-radius: 0px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(102, 102, 102);"
+										href="#thirdlatestpost" data-transition="fade">3rd latest post</a>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+					</div>
+				</div>
+				<!-- /upage-outer -->
+			</div>
+			<div class="upage panel Sunset" id="specificencouragement" data-header="af-header-8" data-footer="none">
+				<div class="upage-outer">
+					<header class="container-group inner-element uib_w_81" data-uib="app_framework/header" data-ver="0" id="af-header-8">
+						<h1>Encourage Others</h1>
+						<div class="widget-container wrapping-col single-centered"></div>
+						<div class="widget-container content-area horiz-area wrapping-col left"><a class="button widget uib_w_82 d-margins icon left" data-uib="app_framework/button" data-ver="0" href="#choiceofencourage" data-transition="fade" id="backchoice">Back</a>
+						</div>
+						<div class="widget-container content-area horiz-area wrapping-col right">
+							<a class="button widget uib_w_83 d-margins icon home" data-uib="app_framework/button" data-ver="0" id="Home" href="#optionselect_page" data-transition="fade"></a>
+						</div>
+					</header>
+					<div id="specificencouragementsub" class="upage-content ">
+
+						<div class="grid grid-pad urow uib_row_38 row-height-38" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_42 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="widget uib_w_84 d-margins MiniHeaderText postcomment" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>Problems</p>
+										</div>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+						<div class="grid grid-pad urow uib_row_40 row-height-40" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_44 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="widget uib_w_86 d-margins postcomment" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>I stayed up whole night last night and ate too much.</p>
+										</div>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_42 row-height-42" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_46 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="grid grid-pad urow uib_row_45 row-height-45" data-uib="layout/row" data-ver="0">
+										<div class="col uib_col_49 col-1_12-12" data-uib="layout/col" data-ver="0">
+											<div class="widget-container content-area vertical-col">
+
+												<div class="table-thing with-label widget uib_w_97 d-margins HeaderText2" data-uib="app_framework/textarea" data-ver="0">
+													<label class="narrow-control label-top-left">Your Comment:</label>
+
+													<textarea class="wide-control" rows="4" wrap="soft"></textarea>
+												</div><span class="uib_shim"></span>
+											</div>
+										</div>
+										<span class="uib_shim"></span>
+									</div><a class="button widget uib_w_88 d-margins icon heart" data-uib="app_framework/button" data-ver="0" id="showyourlove" href="#choiceofencourage" data-transition="fade">Show your love</a><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+					</div>
+				</div>
+				<!-- /upage-outer -->
+			</div>
+			<div class="upage panel Sunset" id="quickencouragements" data-header="af-header-7" data-footer="none">
+				<div class="upage-outer">
+					<header class="container-group inner-element uib_w_76" data-uib="app_framework/header" data-ver="0" id="af-header-7">
+						<h1>Get Encouraged</h1>
+						<div class="widget-container wrapping-col single-centered"></div>
+						<div class="widget-container content-area horiz-area wrapping-col left"><a class="button widget uib_w_78 d-margins icon left" data-uib="app_framework/button" data-ver="0" href="#emotions_page" data-transition="fade">Back</a>
+						</div>
+						<div class="widget-container content-area horiz-area wrapping-col right">
+							<a class="button widget uib_w_77 d-margins icon home" data-uib="app_framework/button" data-ver="0" id="Home" href="#optionselect_page" data-transition="fade"></a>
+						</div>
+					</header>
+					<div id="quickencouragementssub" class="upage-content ">
+
+						<div class="grid grid-pad urow uib_row_36 row-height-36" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_40 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="widget uib_w_79 d-margins postcomment" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>Your encouraging message:</p>
+										</div>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_37 row-height-37" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_41 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+									<span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_43 row-height-43" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_47 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<a class="button widget uib_w_89 d-margins" data-uib="app_framework/button" data-ver="0">Down</a><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+					</div>
+				</div>
+				<!-- /upage-outer -->
+			</div>
+			<div class="upage panel Sunset" id="thirdlatestpost" data-header="af-header-6" data-footer="none">
+				<div class="upage-outer">
+					<header class="container-group inner-element uib_w_73" data-uib="app_framework/header" data-ver="0" id="af-header-6">
+						<h1>My Post</h1>
+						<div class="widget-container wrapping-col single-centered"></div>
+						<div class="widget-container content-area horiz-area wrapping-col left"><a class="button widget uib_w_100 d-margins icon left" data-uib="app_framework/button" data-ver="0" href="#mypostmessage" data-transition="fade">Back</a>
+						</div>
+						<div class="widget-container content-area horiz-area wrapping-col right"><a class="button widget uib_w_101 d-margins icon home" data-uib="app_framework/button" data-ver="0" href="#optionselect_page" data-transition="fade">Home</a>
+						</div>
+					</header>
+					<div id="thirdlatestpostsub" class="upage-content ">
+
+						<div class="grid grid-pad urow uib_row_32 row-height-32" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_36 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="widget uib_w_74 d-margins postcomment" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>My 3rd Latest Post:</p>
+										</div>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_33 row-height-33" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_37 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+									<span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_34 row-height-34" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_38 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="widget uib_w_75 d-margins postcomment" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>Comments:</p>
+										</div>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_35 row-height-35" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_39 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+									<span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+					</div>
+				</div>
+				<!-- /upage-outer -->
+			</div>
+			<div class="upage panel Sunset" id="firstlatestpost" data-header="af-header-1" data-footer="none">
+				<div class="upage-outer">
+					<header class="container-group inner-element uib_w_66" data-uib="app_framework/header" data-ver="0" id="af-header-1">
+						<h1>My Post</h1>
+						<div class="widget-container wrapping-col single-centered"></div>
+						<div class="widget-container content-area horiz-area wrapping-col left"><a class="button widget uib_w_96 d-margins icon left" data-uib="app_framework/button" data-ver="0" href="#mypostmessage" data-transition="fade">Back</a>
+						</div>
+						<div class="widget-container content-area horiz-area wrapping-col right"><a class="button widget uib_w_67 d-margins icon home" data-uib="app_framework/button" data-ver="0" href="#optionselect_page" data-transition="fade">Home</a>
+						</div>
+					</header>
+					<div id="firstlatestpostsub" class="upage-content ">
+
+						<div class="grid grid-pad urow uib_row_24 row-height-24" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_28 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="widget uib_w_68 d-margins SmallerHeaderText postcomment" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>My Latest Post:</p>
+										</div>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_25 row-height-25" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_29 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+									<span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_26 row-height-26" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_30 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="widget uib_w_102 d-margins postcomment" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>Comments</p>
+										</div>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_46 row-height-46" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_50 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="widget uib_w_103 d-margins" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>you are awesome</p>
+										</div>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+					</div>
+				</div>
+				<!-- /upage-outer -->
+			</div>
+			<div class="upage panel Sunset" id="secondlatestpost" data-header="af-header-5" data-footer="none">
+				<div class="upage-outer">
+					<header class="container-group inner-element uib_w_70" data-uib="app_framework/header" data-ver="0" id="af-header-5">
+						<h1>My Post</h1>
+						<div class="widget-container wrapping-col single-centered"></div>
+						<div class="widget-container content-area horiz-area wrapping-col left"><a class="button widget uib_w_98 d-margins icon left" data-uib="app_framework/button" data-ver="0" href="#mypostmessage" data-transition="fade">Back</a>
+						</div>
+						<div class="widget-container content-area horiz-area wrapping-col right"><a class="button widget uib_w_99 d-margins icon home" data-uib="app_framework/button" data-ver="0" href="#optionselect_page" data-transition="fade">Home</a>
+						</div>
+					</header>
+					<div id="firstpostsub" class="upage-content ">
+
+						<div class="grid grid-pad urow uib_row_28 row-height-28" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_32 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="widget uib_w_71 d-margins postcomment" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>My 2nd Latest Post:</p>
+										</div>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_29 row-height-29" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_33 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+									<span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_30 row-height-30" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_34 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="widget uib_w_72 d-margins postcomment" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>Comments:</p>
+										</div>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_31 row-height-31" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_35 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+									<span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+					</div>
+				</div>
+				<!-- /upage-outer -->
+			</div>
+			<div class="upage panel Sunset" id="mypost_page" data-header="af-header-0" data-footer="none">
+				<div class="upage-outer">
+					<header class="container-group inner-element uib_w_45" data-uib="app_framework/header" data-ver="0" id="af-header-0">
+						<h1>My Post</h1>
+						<div class="widget-container wrapping-col single-centered"></div>
+						<div class="widget-container content-area horiz-area wrapping-col left">
+						</div>
+						<div class="widget-container content-area horiz-area wrapping-col right"><a class="button widget uib_w_61 d-margins icon home" data-uib="app_framework/button" data-ver="0" href="#optionselect_page" data-transition="fade">Home</a>
+						</div>
+					</header>
+
+				</div>
+				<!-- /upage-outer -->
+			</div>
+			<div class="upage panel Sunset" id="sendtext_page" data-header="af-header-4" data-footer="none">
+				<div class="upage-outer">
+					<header class="container-group inner-element uib_w_26" data-uib="app_framework/header" data-ver="0" id="af-header-4">
+						<h1>Encourage Others</h1>
+						<div class="widget-container wrapping-col single-centered"></div>
+						<div class="widget-container content-area horiz-area wrapping-col left">
+							<a class="button widget uib_w_110 d-margins icon left" data-uib="app_framework/button" data-ver="0" href="#choiceofencourage" data-transition="fade">Back</a>
+						</div>
+						<div class="widget-container content-area horiz-area wrapping-col right">
+							<a class="button widget uib_w_37 d-margins icon home" data-uib="app_framework/button" data-ver="0" href="#optionselect_page" data-transition="fade" id="Home"></a>
+						</div>
+					</header>
+					<div id="uib_page_2sub" class="upage-content ">
+
+						<div class="grid grid-pad urow uib_row_11 row-height-11" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_12 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="table-thing with-label widget uib_w_29 d-margins HeaderText2" data-uib="app_framework/textarea" data-ver="0">
+										<label class="narrow-control label-top-left" for="EncourageMessage">Encourage a person today</label>
+
+										<textarea class="wide-control" rows="5" wrap="soft" id="EncourageMessage"></textarea>
+									</div>
+									<div class="table-thing with-label widget uib_w_51 d-margins HeaderText1Black" data-uib="app_framework/select" data-ver="0">
+										<label class="narrow-control label-inline">Problem</label>
+										<select class="wide-control">
+											<option>Depressed</option>
+											<option>Angry</option>
+											<option>Confused</option>
+											<option>Lost</option>
+											<option>Pessimistic</option>
+											<option>Regretful</option>
+											<option>Lonely</option>
+										</select>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+						<div class="grid grid-pad urow uib_row_15 row-height-15" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_16 col-0_6-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<a class="button widget uib_w_32 d-margins icon picture" data-uib="app_framework/button" data-ver="0" id="addimage">Add image</a><a class="button widget uib_w_34 d-margins icon headset" data-uib="app_framework/button" data-ver="0" id="addsong">Add song</a>
+									<span class="uib_shim"></span>
+								</div>
+							</div>
+							<div class="col uib_col_17 col-0_6-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<a class="button widget uib_w_33 d-margins icon folder" data-uib="app_framework/button" data-ver="0" id="addlink">Add link</a><a class="button widget uib_w_35 d-margins icon mic" data-uib="app_framework/button" data-ver="0" id="record">Record</a>
+									<span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_12 row-height-12" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_13 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col left">
+
+									<a class="button widget uib_w_28 d-margins icon heart green" data-uib="app_framework/button" data-ver="0" id="sendencourage">Share your love</a><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+					</div>
+				</div>
+				<!-- /upage-outer -->
+			</div>
+			<div class="upage panel Sunset" id="optionselect_page" data-header="af-header-3" data-footer="none">
+				<div class="upage-outer">
+					<header class="container-group inner-element uib_w_21" data-uib="app_framework/header" data-ver="0" id="af-header-3">
+						<h1>Erigo</h1>
+						<div class="widget-container wrapping-col single-centered"></div>
+						<div class="widget-container content-area horiz-area wrapping-col left">
+						</div>
+						<div class="widget-container content-area horiz-area wrapping-col right"><a class="button widget uib_w_38 d-margins icon user" data-uib="app_framework/button" data-ver="0" href="#loginpage" data-transition="fade">Log Out</a>
+						</div>
+					</header>
+					<div id="uib_page_1sub" class="upage-content ">
+
+						<div class="grid grid-pad urow uib_row_10 row-height-10" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_11 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col left">
+
+									<div class="widget uib_w_25 d-margins HeaderText" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>Main Menu</p>
+										</div>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+						<div class="grid grid-pad urow uib_row_9 row-height-9" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_10 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<a class="button widget uib_w_24 d-margins icon heart" data-uib="app_framework/button" data-ver="0" href="#emotions_page" data-transition="fade">Get Encouraged</a><a class="button widget uib_w_39 d-margins icon pencil" data-uib="app_framework/button"
+									data-ver="0" href="#choiceofencourage" data-transition="fade">Encourage Others</a><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_16 row-height-16" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_20 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+									<a class="button widget uib_w_40 d-margins icon chat" data-uib="app_framework/button" data-ver="0" href="#mypostmessage" data-transition="fade">View My Posts</a><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+					</div>
+				</div>
+				<!-- /upage-outer -->
+			</div>
+			<div class="upage panel Sunset" id="emotions_page" data-header="af-header-2" data-footer="none">
+				<div class="upage-outer">
+					<header class="container-group inner-element uib_w_10" data-uib="app_framework/header" data-ver="0" id="af-header-2">
+						<h1>Get Encouraged</h1>
+						<div class="widget-container wrapping-col single-centered"></div>
+						<div class="widget-container content-area horiz-area wrapping-col left with-back"><a class="button" id="backButton">Back</a>
+						</div>
+						<div class="widget-container content-area horiz-area wrapping-col right">
+							<a class="button widget uib_w_36 d-margins icon home" data-uib="app_framework/button" data-ver="0" href="#optionselect_page" data-transition="fade" id="Home"></a>
+						</div>
+					</header>
+					<div id="uib_page_2sub" class="upage-content ">
+
+						<div class="grid grid-pad urow uib_row_7 row-height-7" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_8 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="widget uib_w_11 d-margins HeaderText SmallerHeaderText" data-uib="media/text" data-ver="0">
+										<div class="widget-container left-receptacle"></div>
+										<div class="widget-container right-receptacle"></div>
+										<div>
+											<p>How are you feeling?</p>
+										</div>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+						<div class="grid grid-pad urow uib_row_8 row-height-8" data-uib="layout/row" data-ver="0">
+							<div class="col uib_col_9 col-0_12-12" data-uib="layout/col" data-ver="0">
+								<div class="widget-container content-area vertical-col">
+
+									<div class="table-thing with-label widget uib_w_46 d-margins HeaderText1Black" data-uib="app_framework/select" data-ver="0">
+										<label class="narrow-control label-inline">Problem</label>
+
+										<select class="wide-control">
+											<option>Depressed</option>
+											<option>Angry</option>
+											<option>Confused</option>
+											<option>Lost</option>
+											<option>Pessimistic</option>
+											<option>Regretful</option>
+											<option>Lonely</option>
+										</select>
+									</div>
+									<a class="button widget uib_w_47 d-margins IconButtonWidth Width icon magnifier" data-uib="app_framework/button" data-ver="0" href="#quickencouragements" data-transition="fade">Quick Encouragements</a>
+									<div class="table-thing with-label widget uib_w_48 d-margins HeaderText1Black" data-uib="app_framework/textarea" data-ver="0">
+										<label class="narrow-control label-top-left">My Situation</label>
+
+										<textarea class="wide-control" rows="2" wrap="soft"></textarea>
+									</div>
+									<div class="grid grid-pad urow uib_row_21 row-height-21" data-uib="layout/row" data-ver="0">
+										<div class="col uib_col_25 col-0_12-12" data-uib="layout/col" data-ver="0">
+											<div class="widget-container content-area vertical-col">
+												<a class="button widget uib_w_49 d-margins icon pencil" data-uib="app_framework/button" data-ver="0" href="#mypostmessage" data-transition="fade">Post</a><span class="uib_shim"></span>
+											</div>
+										</div>
+										<span class="uib_shim"></span>
+									</div><span class="uib_shim"></span>
+								</div>
+							</div>
+							<span class="uib_shim"></span>
+						</div>
+
+					</div>
+				</div>
+				<!-- /upage-outer -->
+			</div>
+
+			<!-- /upage -->
+
+		</div>
+		<!-- /uwrap -->
+	</body>
+
+</html>
